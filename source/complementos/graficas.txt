@@ -1,0 +1,41 @@
+x=-50:0.1:50
+
+costoC=x.*x
+plot(x,costoC)
+
+costoA=abs(x)
+plot(x,costoA)
+
+costoLinex=(1*(exp(-x)-(1*(-x))-1))
+plot(x,costoLinex)
+
+
+sigma=0.3
+gamma=0.7
+costoAsim=0.3*(abs(x)-(0.7*x))
+plot(x,costoAsim)
+
+subplot(2,2,1)
+plot(x,costoC)
+subplot(2,2,2)
+plot(x,costoA)
+subplot(2,2,3)
+plot(x,costoLinex)
+subplot(2,2,4)
+plot(x,costoAsim)
+
+%% GRAFICA DEL COL20 A NIVEL CON LEYENDA EN X
+
+figure1 = figure;
+
+% Create axes
+axes1 = axes('Parent',figure1,...
+    'XTickLabel',{'Ene - 09','May - 09','Oct - 09','Mar - 10','Ago - 10','Ene - 11','Jul - 11','Nov - 11','Abr - 12','Sep - 12','Dic - 12'});
+box(axes1,'on');
+hold(axes1,'all');
+
+% Create plot
+plot(datos(:,3))
+
+% Create title
+title('Cambio Porcentual COL20');
