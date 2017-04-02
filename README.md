@@ -19,10 +19,10 @@ La Codificación Directa se basa en describir todos los detalles relevantes de l
 
 ![Alt text](img/Neuroevolución_2.PNG?raw=true "Codificación Binaria en Pesos Sinapticos")
 
-![Alt text](img/Neuroevolución_3.jpg?raw=true "Ristra de Genes")
+![Alt text](img/Neuroevolución_3.PNG?raw=true "Ristra de Genes")
 
 **Resultado**
 
-![Alt text](img/Neuroevolución_4.jpg?raw=true "Predicción")
+![Alt text](img/Neuroevolución_4.PNG?raw=true "Predicción")
 
 El código anterior genera la siguiente predicción sobre el índice financiero COL20, como se puede observar la predicción es bastante eficiente y precisa.
