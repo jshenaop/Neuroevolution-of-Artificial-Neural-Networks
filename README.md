@@ -1,4 +1,4 @@
-# Neuroevolution-of-Artificial-Neural-Networks
+# Neuroevolution of Artificial Neural Networks
 Proyecto de Tesis de Maestría
 Proyecto de Redes Neuronales Artificiales y la Selección de las Mismas a través de Procesos de Neuroevolución
 
